@@ -46,3 +46,46 @@
       border-radius: 24px;
       padding:12px 24px;
 }
+
+.hero {
+      padding: 20px 40px;
+      width: 100%;
+}
+
+.content-hero {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: auto;
+}
+
+.hero-title {
+      font-size: 4rem;
+      text-align: center;
+}
+
+.hero-desc {
+      letter-spacing: .5px;
+      line-height: 1.2;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 24px;
+}
+
+.image {
+      height: 500px;
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+}
+
+.image img {
+      margin-top: 54px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      
+}
