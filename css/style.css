@@ -1,8 +1,13 @@
+:root {
+      --primary-color: #000000;
+      --secondary-color: #ffffff;
+}
+
 * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: sans-serif;
+      font-family: "Monserrat", sans-serif;
 }
 
 .logo h1 {
@@ -16,6 +21,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 24px;
+      color: var(--primary-color);
 }
 
 .navbar {
@@ -34,17 +40,20 @@
 .btn {
       display: flex;
       gap: 24px;
+      
 }
 
 .signin {
       border: none;
       background-color: transparent;
+      cursor: pointer;
 }
 
 .signup {
       border: 1px solid black;
       border-radius: 24px;
       padding:12px 24px;
+      cursor: pointer;
 }
 
 .hero {
@@ -74,7 +83,7 @@
 }
 
 .image {
-      height: 500px;
+      height: 400px;
       width: 800px;
       display: flex;
       justify-content: center;
@@ -87,5 +96,4 @@
       height: 100%;
       width: 100%;
       object-fit: cover;
-      
 }
